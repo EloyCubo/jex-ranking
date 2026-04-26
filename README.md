@@ -1,21 +1,36 @@
-# Jex-Ranking Plugin for Jexactyl
+# Jex-Ranking For Jexactyl
 
-This plugin adds a ranking page to Jexactyl.
+### 🌍 Overview
+**Jex-Ranking** is a free-to-use addon for Jexactyl that introduces a comprehensive ranking system to your panel. It allows users to compete for the top spots on a global leaderboard based on their coin balance. 
 
-## Features
-- Ranking page with top 10 users.
-- Display medals and coin balance.
-- Countdown for the next ranking reset.
-- Automatic integration into the SidePanel.
+This addon includes a monthly medal system, automated rewards, and full admin integration, making your community more active and competitive without the need for manual tracking.
 
-## Installation
+---
+
+### 📌 Features
+*   **Full Leaderboard Integration**: Displays the top 10 users with their balances and earned medals.
+*   **Medal System**: Automated awarding of Gold, Silver, and Bronze medals every month.
+*   **Admin Dashboard**: Dedicated settings tab in Jexactyl settings to manage rewards and configuration.
+*   **User Management**: Add or remove medals directly from the user's admin profile.
+
+---
+
+### ⚙️ Installation
+To install the addon, navigate to the plugin directory and run the main script:
 
 ```bash
-bash install.sh
+git clone https://github.com/EloyCubo/jex-ranking.git
+cd jex-ranking
+bash ./main.sh
 ```
 
-## Uninstallation
+Follow the interactive prompts to complete the installation and rebuild your panel assets.
 
-```bash
-bash delete.sh
-```
+---
+
+### 📌 Notes
+*   **Compatibility**: Works on Jexactyl panel versions v3.x.
+*   **Requirements**: Requires a working Jexactyl installation.
+*   **Database**: Installation includes automatic migrations.
+
+---
